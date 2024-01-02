@@ -8,8 +8,15 @@ Install the libraries below to use the model.
 2. Pytorch Image Model => https://pypi.org/project/timm/
 3. Transformers => https://huggingface.co/docs/transformers/installation
 
+
+## Training
+Training on specific dataset.
+```python
+CUDA_VISIBLE_DEVICES=0 python --dataset_name='Specify you dataset name' main.py --model=1
+```
+
 ## Testing
 To run the trained model, you can run the following code.
 ```python
-CUDA_VISIBLE_DEVICES=0 python main.py --model=1 --no-train
+CUDA_VISIBLE_DEVICES=0 python --dataset_name='KVASIR-SEG' main.py --model=1 --no-train
 ```
