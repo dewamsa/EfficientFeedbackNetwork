@@ -76,6 +76,3 @@ if __name__=='__main__':
     
     if config.test:
         trainer.evaluator_medpy(test_loader=test_loader)
-    
-    if config.generate_each_epoch:
-        trainer.evaluator_each_feedback(test_loader=test_loader)
