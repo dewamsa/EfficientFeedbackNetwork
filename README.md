@@ -9,3 +9,7 @@ Install the libraries below to use the model.
 3. Transformers => https://huggingface.co/docs/transformers/installation
 
 ## Testing
+To run the trained model, you can run the following code.
+```python
+CUDA_VISIBLE_DEVICES=0 python main.py --model=1 --no-train
+```
