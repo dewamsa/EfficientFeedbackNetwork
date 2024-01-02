@@ -1,6 +1,6 @@
 # Efficient Feedback Network
 
-This repo is the official implementation of Efficient Feedback Networks (under review on CMIG)
+This repository is the official implementation of our paper titled 'Efficient Progressive Feedback Attention for Diverse Lesion Segmentation in Cancer Imaging,' currently under review for the Computerized Medical Imaging and Graphics journal.
 
 ## Requirements
 Install the libraries below to use the model.
