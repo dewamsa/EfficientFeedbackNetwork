@@ -43,8 +43,6 @@ if __name__=='__main__':
     test_loader = DataLoader(test_data,batch_size=1,num_workers=config.NUM_WORKERS,shuffle=False,drop_last=True)
 
     model = getModels(config=config)
-    if config.parallel:
-        model = torch.nn.DataParallel(model,device_ids=[0,3])
     model.cuda()
 
     #make trainer
