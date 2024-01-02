@@ -12,11 +12,11 @@ Install the libraries below to use the model.
 ## Training
 Training on specific dataset.
 ```python
-CUDA_VISIBLE_DEVICES=0 python --dataset_name='Specify you dataset name' main.py --model=1
+python --dataset_name='Specify you dataset name' main.py --model=1
 ```
 
 ## Testing
 To run the trained model, you can run the following code.
 ```python
-CUDA_VISIBLE_DEVICES=0 python --dataset_name='KVASIR-SEG' main.py --model=1 --no-train
+python --dataset_name='KVASIR-SEG' main.py --model=1 --no-train
 ```
