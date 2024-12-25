@@ -1,6 +1,6 @@
 # Efficient Feedback Network
 
-This repository is the official implementation of our paper titled 'Efficient Multi-stage Feedback Attention for Diverse Lesion Segmentation in Cancer Imaging,' currently under review for the Computerized Medical Imaging and Graphics journal.
+This repository is the official implementation of our paper titled 'Efficient Multi-stage Feedback Attention for Diverse Lesion Segmentation in Cancer Imaging,' has been published on the Computerized Medical Imaging and Graphics journal.
 
 ## Requirements
 Install the libraries below to use the model.
@@ -20,3 +20,5 @@ To run the trained model, you can run the following code.
 ```python
 python --dataset_name='KVASIR-SEG' main.py --model=1 --no-train
 ```
+
+
